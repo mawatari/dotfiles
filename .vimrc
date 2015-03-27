@@ -18,6 +18,8 @@ set whichwrap=b,s,<,>,[,]
 " カーソル位置を復元
 autocmd BufReadPost * if line("'\"") > 0 && line ("'\"") <= line("$") | exe "normal! g'\"" | endif
 
+" インデント・行頭の削除、編集モードでの削除を可能にする
+set backspace=start,eol,indent
 
 
 " ----- Format -----
