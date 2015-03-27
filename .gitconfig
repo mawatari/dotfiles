@@ -1,0 +1,17 @@
+[user]
+	name = Naoto Mawatari
+	email = github.mawatari@gmail.com
+[color]
+	ui = true
+[alias]
+        br = branch -a
+        cl = clone --recursive
+        co = checkout
+        di = diff --color-words
+        lg = log --graph --pretty=format:'%C(yellow)%h%Creset %s %Cgreen(%cr)%Creset %C(bold cyan)<%an>%Creset %C(yellow)%d%Creset' --abbrev-commit --date=relative
+        pl = pull
+        plp = pull --prune
+        ps = push
+        st = status
+[core]
+	autocrlf = input
