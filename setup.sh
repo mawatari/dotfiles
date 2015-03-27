@@ -8,9 +8,9 @@ esac
 ln -fs ~/.dotfiles/.agignore     ~/.agignore
 ln -fs ~/.dotfiles/.colordiffrc  ~/.colordiffrc
 ln -fs ~/.dotfiles/.gitconfig    ~/.gitconfig
-ln -fs ~/.dotfiles/.vim          ~/.vim
+ln -fs ~/.dotfiles/.vim          ~/
 ln -fs ~/.dotfiles/.vimrc        ~/.vimrc
-ln -fs ~/.dotfiles/.zsh          ~/.zsh
+ln -fs ~/.dotfiles/.zsh          ~/
 ln -fs ~/.dotfiles/.zshrc        ~/.zshrc
 
 echo "完了しました"
