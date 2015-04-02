@@ -10,9 +10,6 @@ setopt print_eight_bit
 # Homebrew Cask
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
-# Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
 # nvm
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
