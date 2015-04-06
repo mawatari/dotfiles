@@ -14,5 +14,9 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 
+# nvm install v0.x.x
+# nvm alias default v0.x.x
+nvm use default
+
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
