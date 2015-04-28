@@ -20,3 +20,6 @@ nvm use default
 
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
+
+# gulp completion
+eval "$(gulp --completion=zsh)"
