@@ -21,5 +21,8 @@ nvm use default
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
 
+# Composer
+export PATH=$PATH:$HOME/.composer/vendor/bin
+
 # gulp completion
 eval "$(gulp --completion=zsh)"
