@@ -12,5 +12,6 @@ ln -fs ~/.dotfiles/.vim          ~/
 ln -fs ~/.dotfiles/.vimrc        ~/.vimrc
 ln -fs ~/.dotfiles/.zsh          ~/
 ln -fs ~/.dotfiles/.zshrc        ~/.zshrc
+ln -fs ~/.dotfiles/.ssh/config   ~/.ssh/config
 
 echo "完了しました"
