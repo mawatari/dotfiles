@@ -22,3 +22,6 @@ source ~/.zsh/alias.zsh
 
 # 環境
 source ~/.zsh/env.zsh
+
+# 自作関数
+source ~/.zsh/functions.zsh
